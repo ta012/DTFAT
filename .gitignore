@@ -18,3 +18,4 @@ venv/
 
 ##	
 egs/audioset/test_eval_run.sh
+egs/audioset/some_logs
