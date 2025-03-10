@@ -7,7 +7,7 @@
 
 <p align="center"><img src="complete_arch_v2.png" alt="Illustration of AST." width="1200"/></p>
 
-Pytorch Implementation of **DTF-AT: Decoupled Time-Frequency Audio Transformer for Event Classification**
+PyTorch Implementation of [DTF-AT: Decoupled Time-Frequency Audio Transformer for Event Classification (AAAI 2024)](https://ojs.aaai.org/index.php/AAAI/article/view/29716)
 
 ### Setting Up  
  Clone or download this repository and set it as the working directory, create a virtual environment and install the dependencies.
@@ -36,28 +36,21 @@ This script create log file with date time stamp in the same directory(eg:169228
 
 
 
-## Citing  
+## Acknowledgements
 We are using the [AST](https://github.com/YuanGongND/ast) repo for model training and [timm](https://github.com/huggingface/pytorch-image-models/tree/main/timm)(do not install timm) for model implementation and ImageNet-1K pretrained weights.
-```  
-@inproceedings{gong21b_interspeech,
-  author={Yuan Gong and Yu-An Chung and James Glass},
-  title={{AST: Audio Spectrogram Transformer}},
-  year=2021,
-  booktitle={Proc. Interspeech 2021},
-  pages={571--575},
-  doi={10.21437/Interspeech.2021-698}
-}
-```  
-```  
-@misc{rw2019timm,
-  author = {Ross Wightman},
-  title = {PyTorch Image Models},
-  year = {2019},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  doi = {10.5281/zenodo.4414861},
-  howpublished = {\url{https://github.com/rwightman/pytorch-image-models}}
-}
-```  
-  
 
+
+## Citation
+
+If you find our work useful, please cite it as:  
+
+```bibtex
+@inproceedings{alex2024dtf,
+  title={DTF-AT: decoupled time-frequency audio transformer for event classification},
+  author={Alex, Tony and Ahmed, Sara and Mustafa, Armin and Awais, Muhammad and Jackson, Philip JB},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={16},
+  pages={17647--17655},
+  year={2024}
+}
